@@ -28,10 +28,10 @@ file_paths = {"veh_params_file": "racecar.ini"}
 # debug and plot options -----------------------------------------------------------------------------------------------
 debug = True                                    # print console messages
 plot_opts = {"mincurv_curv_lin": False,         # plot curv. linearization (original and solution based) (mincurv only)
-             "raceline": True,                  # plot optimized path
+             "raceline": False,                  # plot optimized path
              "imported_bounds": False,          # plot imported bounds (analyze difference to interpolated bounds)
-             "raceline_curv": True,             # plot curvature profile of optimized path
-             "racetraj_vel": True,              # plot velocity profile
+             "raceline_curv": False,             # plot curvature profile of optimized path
+             "racetraj_vel": False,              # plot velocity profile
              "racetraj_vel_3d": False,          # plot 3D velocity profile above raceline
              "racetraj_vel_3d_stepsize": 1.0,   # [m] vertical lines stepsize in 3D velocity profile plot
              "spline_normals": False,           # plot spline normals to check for crossings
@@ -40,7 +40,7 @@ plot_opts = {"mincurv_curv_lin": False,         # plot curv. linearization (orig
 # select track file (including centerline coordinates + track widths) --------------------------------------------------
 # file_paths["track_name"] = "rounded_rectangle"                              # artificial track
 # file_paths["track_name"] = "handling_track"                                 # artificial track
-file_paths["track_name"] = "berlin_2018"                                    # Berlin Formula E 2018
+file_paths["track_name"] = "old_monza"                                    # Berlin Formula E 2018
 # file_paths["track_name"] = "modena_2019"                                    # Modena 2019
 
 # set import options ---------------------------------------------------------------------------------------------------
